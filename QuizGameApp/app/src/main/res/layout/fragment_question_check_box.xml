@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollViewContainerDesign">
+
+    <LinearLayout style="@style/LinearQuestionContainerDesign">
+
+        <View style="@style/ViewDesignHorizontal" />
+
+        <TextView
+            android:id="@+id/question_text_view_5"
+            style="@style/QuestionTextViewDesign" />
+
+        <View style="@style/ViewDesignHorizontal" />
+
+        <LinearLayout
+            android:id="@+id/check_box_container"
+            style="@style/RadioGruopDesign">
+
+
+        </LinearLayout>
+
+
+        <ImageView style="@style/RingsImageDesign1" />
+
+    </LinearLayout>
+
+</ScrollView>

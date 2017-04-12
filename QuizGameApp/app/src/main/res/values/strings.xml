@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Quiz Game App</string>
+
+    <!-- CATEGORY  CHILD NAME Question1 [CHAR LIMIT=20] -->
+    <string name="fragment_question1">Question 1</string>
+
+    <!-- CATEGORY  CHILD NAME Question2 [CHAR LIMIT=20] -->
+    <string name="fragment_question2">Question 2</string>
+
+    <!-- CATEGORY CHILD NAME Question3 [CHAR LIMIT=20] -->
+    <string name="fragment_question3">Question 3</string>
+
+    <!-- CATEGORY CHILD NAME Question4 [CHAR LIMIT=20] -->
+    <string name="fragment_question4">Question 4</string>
+
+    <!-- CATEGORY CHILD NAME Question5 [CHAR LIMIT=20] -->
+    <string name="fragment_question5">Question 5</string>
+
+    <!-- CATEGORY CHILD NAME Question6 [CHAR LIMIT=20] -->
+    <string name="fragment_question6">Question 6</string>
+
+    <!-- CATEGORY CHILD NAME Question6 [CHAR LIMIT=20] -->
+    <string name="fragment_question7">Question 7</string>
+
+    <!-- CATEGORY CHILD NAME Score [CHAR LIMIT=20] -->
+    <string name="fragment_score">Quiz Score</string>
+
+    <!-- CATEGORY NAME Enjoy the game [CHAR LIMIT=20] -->
+    <string name="fragment_opening_fragment">Rules</string>
+
+    <!-- CATEGORY NAME Score [CHAR LIMIT=20] -->
+    <string name="fragment_quiz_app">Quiz</string>
+
+    <!-- CATEGORY NAME Court Counter [CHAR LIMIT=20] -->
+    <string name="fragment_court_counter">Match</string>
+
+    <!-- CATEGORY NAME Score [CHAR LIMIT=20] -->
+    <string name="fragment_final_score">Score</string>
+
+    <string name="takedown">Takedown +2</string>
+
+    <string name="reversal">Reversal +2</string>
+
+    <string name="escape">Escape +1</string>
+
+    <string name="near_fall2">Near fall(2 sec) +2</string>
+
+    <string name="near_fall5">Near fall(5 sec) +3</string>
+
+    <string name="press_round">Press Round Button !</string>
+
+    <string name="score">0</string>
+
+    <string name="playerB">Nikola</string>
+
+    <string name="correct">Correct</string>
+
+    <string name="incorrect">Incorrect</string>
+
+    <string name="game">Game</string>
+
+    <string name="try_again">Try again</string>
+
+    <string name="final_score_view">Final score</string>
+
+    <string name="match_score">Match score</string>
+
+    <string name="quiz_score">Quiz score</string>
+
+    <string name="start_rules_btn">Start ! </string>
+
+    <string name="court_counter_rules_title">2. Court Counter rules :</string>
+
+    <string name="hint_edit_main">Enter your name :</string>
+
+    <string name="hint_edit_answer7">Enter answer here :</string>
+
+    <string name="general_rules_title">General rules :</string>
+
+    <string name="quiz_rules_title">1. Quiz rules :</string>
+
+    <string name="app_recap">App Recap</string>
+
+    <string name="start_btn">Start game ! </string>
+
+    <string name="question_1">Question 1 :</string>
+
+    <string name="question_2">Question 2 :</string>
+
+    <string name="question_3">Question 3 :</string>
+
+    <string name="question_4">Question 4 :</string>
+
+    <string name="question_5">Question 5 :</string>
+
+    <string name="question_6">Question 6 :</string>
+
+    <string name="question_7">Question 7 :</string>
+
+    <string name="general_rules">To finish the whole wrestling app game you first need to play the quiz game. After you finish it, you will be apointed to the next game in which you wrestle against me. You will then be able to see the final score and find out how good of a wrestler are you!  </string>
+
+    <string name="quiz_rules">The quiz is consisted of 5 questions. You will be provided with 3 possible answers from which there\'s only one correct answer. There are 2 correct answers in check box question. You will only be able to choose once so choose wisely! </string>
+
+    <string name="court_counter_rules">You will have to prove your grappling skills. In order to take the set you have to score 14 points. First one who takes 2 sets wins the match. Each round lasts 2 minutes. You have to mark the begginning of a round whenever you\'re ready!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

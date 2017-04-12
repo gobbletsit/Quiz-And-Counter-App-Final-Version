@@ -1,0 +1,94 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/pozadina"
+    tools:context="com.example.android.quizgameapp.OpeningFragment">
+
+
+    <View
+        style="@style/ViewDesignHorizontal"/>
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        style="@style/LinearRulesContainerDesign">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/OpeningPageGeneralRulesTextViewDesign"
+        android:text="@string/general_rules_title" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/general_rules"
+        android:layout_gravity="center"
+        style="@style/RulesTextViewDesign" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/ViewDesignHorizontal"/>
+
+    <LinearLayout
+        style="@style/LinearRulesContainerDesign">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_rules_title"
+            style="@style/OpeningPageGameRulesTextViewDesign"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_rules"
+            style="@style/RulesTextViewDesign"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/ViewDesignHorizontal"/>
+
+    <LinearLayout
+        style="@style/LinearRulesContainerDesign">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/court_counter_rules_title"
+            style="@style/OpeningPageGameRulesTextViewDesign"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/court_counter_rules"
+            style="@style/RulesTextViewDesign"/>
+
+
+    </LinearLayout>
+
+    <View
+        style="@style/ViewDesignHorizontal"/>
+
+    <Button
+        android:id="@+id/start_game_btn"
+        android:text="@string/start_rules_btn"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/roundedbutton"
+        android:textColor="@color/bijela"
+        style="@style/NxtDesignBtn"/>
+
+</LinearLayout>
+</ScrollView>

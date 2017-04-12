@@ -1,0 +1,306 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.quizgameapp.ScoreActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="@string/app_recap"
+                android:textAllCaps="true"
+                android:textColor="@color/bijela"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View style="@style/ViewDesignHorizontal" />
+
+        <RelativeLayout
+
+            android:id="@+id/upper_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/pozadina">
+
+            <!-- TODO: Update blank fragment layout -->
+
+            <LinearLayout
+                android:id="@+id/score_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <GridLayout
+                    android:id="@+id/grid_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:text="@string/hello_blank_fragment">
+
+                    <TextView
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_1" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_2" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_3" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_4" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_5" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_6" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/question_7" />
+
+
+                </GridLayout>
+
+                <View style="@style/ViewDesignVertical" />
+
+                <GridLayout
+                    android:id="@+id/grid_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/answer_value_1"
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        android:id="@+id/answer_value_2"
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        android:id="@+id/answer_value_3"
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        android:id="@+id/answer_value_4"
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        android:id="@+id/answer_value_5"
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        android:id="@+id/answer_value_6"
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        android:id="@+id/answer_value_7"
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                </GridLayout>
+
+            </LinearLayout>
+
+            <View
+                style="@style/ViewDesignHorizontal"
+                android:layout_below="@+id/score_linear" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/pozadina">
+
+            <!-- TODO: Update blank fragment layout -->
+
+            <View style="@style/ViewDesignHorizontal" />
+
+            <LinearLayout
+                android:id="@+id/final_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <GridLayout
+                    android:id="@+id/grid_final"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/TextViewDesign"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/quiz_score" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/match_score" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/final_score_view"
+                        android:textColor="@color/colorPrimaryDark" />
+
+
+                </GridLayout>
+
+                <View style="@style/ViewDesignVertical" />
+
+                <GridLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/final_quiz_score_tV"
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_vertical" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        android:id="@+id/final_court_score_tV"
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_vertical" />
+
+                    <View style="@style/ViewDesignHorizontalThin" />
+
+                    <TextView
+                        android:id="@+id/final_final_score_tv"
+                        style="@style/TextViewDesign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_vertical"
+                        android:textColor="@color/colorPrimaryDark" />
+
+
+                </GridLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/border_view"
+                style="@style/ViewDesignHorizontal"
+                android:layout_below="@+id/final_linear" />
+
+            <TextView
+                android:id="@+id/end_msg_view"
+                style="@style/TextViewDesign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/border_view"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/try_again_btn"
+                style="@style/NxtDesignBtn"
+                android:layout_below="@+id/end_msg_view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25dp"
+                android:gravity="center"
+                android:text="@string/try_again" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
